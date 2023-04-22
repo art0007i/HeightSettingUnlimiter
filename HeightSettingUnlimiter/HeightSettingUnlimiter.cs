@@ -39,7 +39,7 @@ namespace HeightSettingUnlimiter
                 {
                     if (code.Is(OpCodes.Ldc_R8, 2.2))
                     {
-                        code.operand = 10.0d;
+                        code.operand = Double.PositiveInfinity;
                     }
                     yield return code;
                 }
